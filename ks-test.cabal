@@ -11,8 +11,8 @@ license:                Unspecified
 homepage:               /dev/null
 
 category:               Math, Numerical
-synopsis:               I'm too lame to describe my project
-description:            I'm too lame to describe my project
+synopsis:               Kolmogorov distribution and Kolmogorov-Smirnov test.
+description:            Kolmogorov distribution and Kolmogorov-Smirnov test.
 
 Library
   hs-source-dirs:       src
