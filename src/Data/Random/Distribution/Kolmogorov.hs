@@ -119,7 +119,6 @@ kCdfQuick n d
 -- a multiple of m^n, along with the natural logarithm of the factor.
 --
 -- That is, if @(mn, logS) = mPower m n@ then m^n = (e^logS) * mn
--- mPower :: (Matrix m a, Floating a, Ord a) => m a -> Int -> (m a, Int)
 mPower m 1 = (m, 0)
 mPower m n
     | even n    = square (mPower m (n `div` 2))
