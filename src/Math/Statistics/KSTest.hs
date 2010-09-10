@@ -53,7 +53,8 @@ ksTest f xs = 1 - kCdf n d
 
 -- |'KS' distribution: not really a standard mathematical concept, but still
 -- a nice conceptual shift.  @KS n d@ is the distribution of a random
--- variable constructed as a list of @n@ random variables of distribution @d@.
+-- variable constructed as a list of @n@ independent random variables of
+-- distribution @d@.
 -- 
 -- The corresponding 'CDF' instance implements the K-S test for such lists.
 -- For example, if @xs@ is a list of length 100 believed to contain Beta(2,5)
