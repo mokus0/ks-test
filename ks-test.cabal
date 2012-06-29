@@ -17,8 +17,8 @@ tested-with:            GHC == 6.10.4,
                         GHC == 6.12.1, GHC == 6.12.3
 
 source-repository head
-  type: darcs
-  location: http://code.haskell.org/~mokus/ks-test
+  type: git
+  location: https://github.com/mokus0/ks-test.git
 
 Library
   hs-source-dirs:       src
